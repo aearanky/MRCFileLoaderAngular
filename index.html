@@ -1,0 +1,41 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MRC File Loader Test</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body ng-app="angularjsThreejsApp">
+	
+	<div id="inset"></div>
+	<div class="container" ng-view=""></div>
+	
+	<script src="bower_components/threejs/build/three.js"></script>
+	<script src="scripts/libraries/threejs/libs/Volume.js"></script>
+	<script src="scripts/libraries/threejs/libs/VolumeSlice.js"></script>
+	<script src="scripts/libraries/threejs/libs/Detector.js"></script>
+	<script src="scripts/libraries/threejs/libs/stats.min.js"></script>
+	<script src="scripts/libraries/threejs/libs/dat.gui.min.js"></script>
+	<script src="scripts/libraries/threejs/loaders/MRCLoader.js"></script>
+	
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-resource/angular-resource.js"></script>
+	<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+
+	<script src="scripts/app_MRC.js"></script>
+	<script src="scripts/controllers/mainController.js"></script>
+	<script src="scripts/directives/ngMrcviewer.js"></script>
+	
+</body>
+</html>

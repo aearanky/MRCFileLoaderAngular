@@ -1,0 +1,46 @@
+body {
+		font-family: Monospace;
+		background-color: #000;
+		color: #fff;
+		margin: 0px;
+		overflow: hidden;
+}
+
+.hero-unit {
+				color: #fff;
+				position: absolute;
+				top: 10px;
+				width: 100%;
+				text-align: center;
+				z-index: 5;
+				display:block;
+}
+
+.hero-unit h1 {
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+canvas {
+	width: 100%;
+	height: 100%
+}
+
+
+.dg {
+		z-index: 10 !important;
+}
+
+#inset {
+		width: 150px;
+		height: 150px;
+		background-color: transparent; /* or transparent; will show through only if renderer alpha: true */
+		border: none; /* or none; */
+		margin: 0;
+		padding: 0px;
+		position: absolute;
+		left: 20px;
+		bottom: 20px;
+		z-index: 100;
+}
